@@ -1,0 +1,43 @@
+div#here {
+    width: 650px;
+}
+
+ol.items {
+    border: 1px solid black;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+li {
+    border-top: 1px solid black;
+    list-style: none;
+}
+li:first-of-type {
+    border-top: none;
+    border-left: none;
+}
+
+ul > li {
+    border-top: none;
+    border-left: 1px solid black;
+    display: inline-block;
+    padding: 8px;
+    width: 30%;
+}
+
+ul {
+    padding-left: 0;
+    display: block;
+    width: 650px;
+}
+
+ul.total {
+    width: 436px;
+    float: right;
+    border: 1px solid black;
+    border-top: none;
+    margin-top: 0;
+}
+ul.total > li {
+    width: 44.8%;
+}
