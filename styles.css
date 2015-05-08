@@ -1,0 +1,114 @@
+div#here {
+    width: 650px;
+}
+
+nav {
+    overflow: hidden;
+}
+nav div {
+    width: 47.2%;
+    float: left;
+    padding: 8px;
+    background-color: #ddd;
+    border-bottom: 1px solid black;
+}
+nav div.picked {
+    background-color: #fff;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+section.catalog div, section.catalog form {
+    overflow: hidden;
+    border-top: 1px solid #aaa;
+    padding-top: 15px;
+}
+section.catalog div:first-child, section.catalog form:first-child {
+    border: none;
+}
+
+section.catalog article {
+    float: left;
+    width: 65%;
+    position: relative;
+}
+section.catalog aside {
+    float: right;
+    background-color:#ffb;
+    border: 2px solid rgb(235, 210, 147);
+    padding: 8px;
+}
+section.catalog p.quantity {
+    margin: 4px 0px;
+}
+a.edit {
+    float: right;
+    font-size: 88%;
+    margin-bottom: 10px;
+}
+
+ol.items {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: table;
+    width: 650px;
+}
+
+ol.items li, ul.total li {
+    list-style: none;
+}
+ol.items > li {
+    border-bottom: 1px solid #ddd;
+}
+
+ol.items ul li, ul.total li {
+    display: table-cell;
+    padding: 8px;
+    width: 200px;
+    float: left;
+}
+li.empty { padding: 8px; }
+
+ol.items ul li.name { padding-top: 16px; }
+ol.items ul li.quantity { padding-top: 8px; }
+ol.items ul li.price { padding-top: 16px; }
+
+ol.items ul, ul.total {
+    padding-left: 0;
+    display: table-row;
+    width: 650px;
+}
+
+a.remove {
+    display: inline-block;
+    font-size: 1.3em;
+    color: red;
+    position: relative;
+    top: -8px;
+    left: 8px;
+}
+
+ul.total {
+    width: 436px;
+    float: right;
+    border-top: none;
+    margin-top: 0;
+}
+ul.total li { padding-top: 16px; }
+
+form label {
+    width: 95px;
+    display: inline-block;
+}
+form input {
+    line-height: 1.8em;
+    width: 300px;
+}
+form button {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.spin-here {
+    width: 50%;
+}
