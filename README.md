@@ -1,4 +1,4 @@
-# How to use this repository
+# No, seriously, the code is here (or, how to use this repository)
 
 In the several branches of this repo, named for sections in the course, you will find code that goes with those sections. Check out the branch to use the code. 
 
