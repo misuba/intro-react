@@ -2,6 +2,9 @@
 
 In the several branches of this repo, named for sections in the course, you will find code that goes with those sections. Check out the branch to use the code. 
 
-The React Native app has been greatly expanded. Expansion of the isomorphic Node app beyond the code in the course will be added here in the next couple of weeks.
+Be aware that the React Native app in chapter 6:
+* has been greatly expanded from what's in the video; 
+* is not a web app! It's a full-fledged native mobile app for iOS, so if you just sail in from chapter 5 and expect it to work the same, that speed bump might hurt;
+* was written before React Native supported Android, so won't run unless you're on a Mac (with Xcode installed). Making it run on Android would be a fun exercise, probably not too strenuous.
 
 Have fun, everybody! - Mike
